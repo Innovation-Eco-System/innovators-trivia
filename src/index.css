@@ -5,3 +5,12 @@
 /* purgecss end ignore */
 
 @tailwind utilities;
+
+.fancy-font{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    letter-spacing: 0.07em;
+}
+
+.logo{
+    font-family: 'Abril Fatface', cursive;
+}

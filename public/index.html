@@ -14,6 +14,10 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Big+Shoulders+Stencil+Display:wght@300&display=swap" rel="stylesheet" />
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.css' rel='stylesheet' />
+
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -26,8 +30,14 @@
     <title>React App</title>
   </head>
   <body class="h-screen">
+    <style>
+      body, *, button{
+        cursor: url('https://riseup-storage.s3.amazonaws.com/pngtree-cursor-icon-design-png-image_1017504.png'), auto !important;
+      }
+    </style>
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root" class="h-full"></div>
+    <div id="root" class="shidden h-full"></div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

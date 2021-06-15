@@ -8,7 +8,11 @@ module.exports = {
     './public/index.html',
   ],
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        primary: "#1b2637"
+      }
+    }
   },
   variants: {},
   plugins: []
